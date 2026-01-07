@@ -1,7 +1,8 @@
 {
     "name": "Dieta a scelta",
-    "short_name": "dieta",
-    "start_url": "/",
+    "short_name": "Dieta",
+    "start_url": "/dieta-web/",
+    "scope": "/dieta-web/",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#009688",
