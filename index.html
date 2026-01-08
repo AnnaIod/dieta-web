@@ -79,6 +79,36 @@
     display: block;
   }
 </style>
+<script>
+  (function () {
+    function removeSplash() {
+      const splash = document.getElementById('splash');
+      if (!splash) return;
+
+      splash.style.opacity = '0';
+      splash.style.transition = 'opacity 180ms ease';
+      setTimeout(() => {
+        if (splash && splash.parentNode) splash.parentNode.removeChild(splash);
+      }, 220);
+    }
+
+    // ✅ Metodo migliore: Flutter emette questo evento al primo frame
+    window.addEventListener('flutter-first-frame', removeSplash);
+
+    // ✅ Backup: se non arriva l’evento, osserva il DOM
+    const obs = new MutationObserver(() => {
+      const flutterReady =
+        document.querySelector('flt-glass-pane') ||
+        document.querySelector('flutter-view') ||
+        document.querySelector('canvas');
+      if (flutterReady) removeSplash();
+    });
+    obs.observe(document.documentElement, { childList: true, subtree: true });
+
+    // ✅ Ultimo backup: mai restare bloccati (es. 8 secondi)
+    setTimeout(removeSplash, 8000);
+  })();
+</script>
 
 </head>
 <body>

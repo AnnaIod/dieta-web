@@ -29,14 +29,54 @@
       "note": "In alternativa spuntino previsto"
     },
     {
+      "nome": "Spuntino mattina",
+      "quantita": "Fette biscottate integrali 30 g o normali 20gr",
+      "note": "In alternativa spuntino previsto"
+    },
+    {
+      "nome": "Spuntino mattina",
+      "quantita": "Biscotti integrali o secchi 20 g",
+      "note": "In alternativa spuntino previsto"
+    },
+    {
+      "nome": "Spuntino pomeriggio (ore 17)",
+      "quantita": "frutta fresca 150-200g",
+      "note": "Fondamentale"
+    },
+    {
       "nome": "Spuntino pomeriggio (ore 17)",
       "quantita": "Mandorle 15 g",
-      "note": "Fondamentale"
+      "note": "In alternativa spuntino previsto"
+    },
+    {
+      "nome": "Spuntino pomeriggio (ore 17)",
+      "quantita": "Yogurt di soia naturale 125gr, Mandorle 10, cannella o cacao amaro",
+      "note": "Più efficace e riduce la fame fino alla sera"
+    },
+    {
+      "nome": "Spuntino pomeriggio (ore 17)",
+      "quantita": "Pane Integrale 30 gr, Bresaola 30 gr oppure fesa di tacchino 40 gr",
+      "note": "In alternativa spuntino previsto"
+    },
+    {
+      "nome": "Spuntino pomeriggio (ore 17)",
+      "quantita": "hummus di ceci 40 gr, carote o finocchi crudi 150 gr",
+      "note": "In alternativa spuntino previsto. Spuntino saziante"
+    },
+    {
+      "nome": "Spuntino pomeriggio (ore 17)",
+      "quantita": "Mela o pera 150 gr, noci 10 gr.",
+      "note": "In alternativa spuntino previsto, solo se non hai una vera fame"
     },
     {
       "nome": "Spuntino di emergenza",
       "quantita": "Mandorle 10–15 g",
       "note": "Sempre consentito + acqua o tisana"
+    },
+    {
+      "nome": "Nell'arco della giornata",
+      "quantita": "Sempre consentito + acqua o tisana",
+      "note": ""
     }
   ],
 
